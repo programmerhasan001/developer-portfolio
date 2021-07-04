@@ -20,7 +20,12 @@
     cursor: pointer;
     margin-top: 5px;
 }
-
+p{
+    text-align: justify;
+}
+section{
+    margin-bottom: 50px;
+}
 /* header part css start */
 .header-area{
     background: url(../images/top-banner.png);
@@ -31,7 +36,9 @@
     display: flex;
 }
 .header-content .header-left,
-.header-content .header-right{
+.header-content .header-right,
+.dream-content .dream-left,
+.dream-content .dream-right{
     width: 50%;
 }
 .header-right img{
@@ -45,10 +52,29 @@
 .developersName{
     color: orange;
 }
-.header-left h3{
+.header-left h3,
+.dream-right h3{
     padding: 15px 0;
-}
-.header-left p{
-    text-align: justify;
+    font-weight: 600;
 }
 
+/* Dream big part css start */
+.dreamBig-area{
+    background: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom 100px right;
+}
+.dream-content{
+    display: flex;
+}
+.dream-content .dream-left img{
+    width: 100%;
+}
+.dream-right{
+    padding-left: 75px;
+}
+.dream-right h2{
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 40px;
+}
