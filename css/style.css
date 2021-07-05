@@ -36,6 +36,7 @@ section{
 }
 .profile-greetings{
     color: forestgreen;
+    display: block;
 }
 /* header part css start */
 .header-area{
