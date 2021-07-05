@@ -34,6 +34,9 @@ section{
 .orange-color{
     color: orange;
 }
+.profile-greetings{
+    color: forestgreen;
+}
 /* header part css start */
 .header-area{
     background: url(../images/top-banner.png);
