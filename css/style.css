@@ -47,7 +47,8 @@ section{
     width: 50%;
 }
 .header-right img{
-    width: 100%;
+    width: 99%;
+    margin-left: 1%;
 }
 .header-area h1{
     font-size: 45px;
