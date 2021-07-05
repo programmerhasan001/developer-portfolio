@@ -26,14 +26,19 @@ p{
 section{
     margin-bottom: 50px;
 }
+.header-content,
+.dream-content,
+.experience-content{
+    display: flex;
+}
+.orange-color{
+    color: orange;
+}
 /* header part css start */
 .header-area{
     background: url(../images/top-banner.png);
     background-repeat: no-repeat;
     /* background-size: cover; */
-}
-.header-content{
-    display: flex;
 }
 .header-content .header-left,
 .header-content .header-right,
@@ -49,9 +54,6 @@ section{
     font-weight: 600;
     padding: 25px 0;
 }
-.developersName{
-    color: orange;
-}
 .header-left h3,
 .dream-right h3{
     padding: 15px 0;
@@ -64,9 +66,6 @@ section{
     background-repeat: no-repeat;
     background-position: bottom 100px right;
 }
-.dream-content{
-    display: flex;
-}
 .dream-content .dream-left img{
     width: 100%;
 }
@@ -77,4 +76,56 @@ section{
     font-size: 40px;
     font-weight: 500;
     padding-top: 40px;
+}
+/* experience part css start */
+.experience-area{
+    background: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 15%;
+    background-size: contain;
+}
+.experience-heading h2{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+.experience-content{
+    justify-content: space-between;
+}
+.experience-content h2{
+    padding: 10px 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.experience-content h3{
+    padding: 15px 0;
+    font-weight: 600;
+}
+
+.experience-left,
+.experience-right{
+    width: 49%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 40px 20px 75px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.experience-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(brown, tomato);
+    border-image-slice: 1;
+}
+.experience-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+/* footer ara css start */
+.footer-area p{
+    text-align: center;
+    color: #535c68;
+    font-weight: 500;
+    padding: 75px 0 15px;
 }
